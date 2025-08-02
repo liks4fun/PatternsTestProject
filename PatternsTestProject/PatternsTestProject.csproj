@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="2.2.4.900" />
+    <PackageReference Include="morelinq" Version="4.4.0" />
+    <PackageReference Include="NUnit" Version="2.5.7.10213" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Patterns\Singleton\Default\capitals.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>capitals.txt</Link>
+    </None>
+  </ItemGroup>
+
+</Project>

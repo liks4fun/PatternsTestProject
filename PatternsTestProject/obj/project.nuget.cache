@@ -1,0 +1,37 @@
+{
+  "version": 2,
+  "dgSpecHash": "rfJlE/P4G2s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\PatternsTestProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\liks4\\.nuget\\packages\\autofac\\2.2.4.900\\autofac.2.2.4.900.nupkg.sha512",
+    "C:\\Users\\liks4\\.nuget\\packages\\morelinq\\4.4.0\\morelinq.4.4.0.nupkg.sha512",
+    "C:\\Users\\liks4\\.nuget\\packages\\nunit\\2.5.7.10213\\nunit.2.5.7.10213.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Autofac 2.2.4.900' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\PatternsTestProject.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\PatternsTestProject.csproj",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'NUnit 2.5.7.10213' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\PatternsTestProject.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\PatternsTestProject.csproj",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

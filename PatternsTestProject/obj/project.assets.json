@@ -1,0 +1,265 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Autofac/2.2.4.900": {
+        "type": "package",
+        "compile": {
+          "lib/NET40/Autofac.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/NET40/Autofac.dll": {
+            "related": ".XML"
+          }
+        }
+      },
+      "morelinq/4.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/MoreLinq.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "NUnit/2.5.7.10213": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {},
+          "lib/nunit.mocks.dll": {},
+          "lib/pnunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {},
+          "lib/nunit.mocks.dll": {},
+          "lib/pnunit.framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/2.2.4.900": {
+      "sha512": "erfIUmId+CQ/QmWTXeHPjILb62aNeuX9Hsp6T3IUtdDPG+PxkWHH6J9MxHlGrexUlS6lQ4iP+WuaVoI06HWE5g==",
+      "type": "package",
+      "path": "autofac/2.2.4.900",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.2.2.4.900.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/NET40/Autofac.XML",
+        "lib/NET40/Autofac.dll"
+      ]
+    },
+    "morelinq/4.4.0": {
+      "sha512": "QX3bsK9oFeUXk8tFsc9NkI6NnCr8Ar/ex027p+ZZ/jdLCdX2RlryDtxUqZW5j45NVwn4E4Z4hzupsoMQd6Yxtg==",
+      "type": "package",
+      "path": "morelinq/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING.txt",
+        "README.md",
+        "lib/net6.0/MoreLinq.dll",
+        "lib/net6.0/MoreLinq.pdb",
+        "lib/net6.0/MoreLinq.xml",
+        "lib/net8.0/MoreLinq.dll",
+        "lib/net8.0/MoreLinq.pdb",
+        "lib/net8.0/MoreLinq.xml",
+        "lib/net9.0/MoreLinq.dll",
+        "lib/net9.0/MoreLinq.pdb",
+        "lib/net9.0/MoreLinq.xml",
+        "lib/netstandard2.0/MoreLinq.dll",
+        "lib/netstandard2.0/MoreLinq.pdb",
+        "lib/netstandard2.0/MoreLinq.xml",
+        "lib/netstandard2.1/MoreLinq.dll",
+        "lib/netstandard2.1/MoreLinq.pdb",
+        "lib/netstandard2.1/MoreLinq.xml",
+        "morelinq.4.4.0.nupkg.sha512",
+        "morelinq.nuspec"
+      ]
+    },
+    "NUnit/2.5.7.10213": {
+      "sha512": "4aEVHJ3K6SRvmnUn630f6LMy6wfM5tZyMhSSAcMrOs2EspiwI0wsGtTQkFWizqjhNsO+fn0I/ravWZAAVfXpqg==",
+      "type": "package",
+      "path": "nunit/2.5.7.10213",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Logo.ico",
+        "NUnitFitTests.html",
+        "Tools/NUnitFitTests.html",
+        "Tools/NUnitTests.config",
+        "Tools/NUnitTests.nunit",
+        "Tools/agent.conf",
+        "Tools/agent.log.conf",
+        "Tools/launcher.log.conf",
+        "Tools/lib/Failure.png",
+        "Tools/lib/Ignored.png",
+        "Tools/lib/Inconclusive.png",
+        "Tools/lib/Skipped.png",
+        "Tools/lib/Success.png",
+        "Tools/lib/fit.dll",
+        "Tools/lib/log4net.dll",
+        "Tools/lib/nunit-console-runner.dll",
+        "Tools/lib/nunit-gui-runner.dll",
+        "Tools/lib/nunit.core.dll",
+        "Tools/lib/nunit.core.interfaces.dll",
+        "Tools/lib/nunit.fixtures.dll",
+        "Tools/lib/nunit.uiexception.dll",
+        "Tools/lib/nunit.uikit.dll",
+        "Tools/lib/nunit.util.dll",
+        "Tools/nunit-agent-x86.exe",
+        "Tools/nunit-agent-x86.exe.config",
+        "Tools/nunit-agent.exe",
+        "Tools/nunit-agent.exe.config",
+        "Tools/nunit-console-x86.exe",
+        "Tools/nunit-console-x86.exe.config",
+        "Tools/nunit-console.exe",
+        "Tools/nunit-console.exe.config",
+        "Tools/nunit-x86.exe",
+        "Tools/nunit-x86.exe.config",
+        "Tools/nunit.exe",
+        "Tools/nunit.exe.config",
+        "Tools/nunit.framework.dll",
+        "Tools/pnunit-agent.exe",
+        "Tools/pnunit-agent.exe.config",
+        "Tools/pnunit-launcher.exe",
+        "Tools/pnunit-launcher.exe.config",
+        "Tools/pnunit.framework.dll",
+        "Tools/pnunit.tests.dll",
+        "Tools/runFile.exe",
+        "Tools/runFile.exe.config",
+        "Tools/runpnunit.bat",
+        "Tools/test.conf",
+        "fit-license.txt",
+        "lib/nunit.framework.dll",
+        "lib/nunit.framework.xml",
+        "lib/nunit.mocks.dll",
+        "lib/pnunit.framework.dll",
+        "license.txt",
+        "nunit.2.5.7.10213.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Autofac >= 2.2.4.900",
+      "NUnit >= 2.5.7.10213",
+      "morelinq >= 4.4.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\liks4\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\PatternsTestProject.csproj",
+      "projectName": "PatternsTestProject",
+      "projectPath": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\PatternsTestProject.csproj",
+      "packagesPath": "C:\\Users\\liks4\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\liks4\\source\\repos\\PatternsTestProject\\PatternsTestProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\liks4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[2.2.4.900, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[2.5.7.10213, )"
+          },
+          "morelinq": {
+            "target": "Package",
+            "version": "[4.4.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Autofac 2.2.4.900' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NUnit 2.5.7.10213' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
